@@ -1,0 +1,7 @@
+aistk_blog_post:
+    resource: "@AistkBlogBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+aistk_blog_homepage:
+    path:     /
+    defaults: { _controller: AistkBlogBundle:Default:index }
